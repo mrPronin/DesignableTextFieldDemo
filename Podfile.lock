@@ -1,0 +1,22 @@
+PODS:
+  - DesignableTextField (0.1.1)
+
+DEPENDENCIES:
+  - DesignableTextField (from `https://github.com/mrPronin/DesignableTextField`, tag `0.1.1`)
+
+EXTERNAL SOURCES:
+  DesignableTextField:
+    :git: https://github.com/mrPronin/DesignableTextField
+    :tag: 0.1.1
+
+CHECKOUT OPTIONS:
+  DesignableTextField:
+    :git: https://github.com/mrPronin/DesignableTextField
+    :tag: 0.1.1
+
+SPEC CHECKSUMS:
+  DesignableTextField: 8b67f08f25b26a4f3f0ba64c341fb22f1f43a8dc
+
+PODFILE CHECKSUM: 6aad18b68574bb6641f720f8978b7fbc1f8bbdc5
+
+COCOAPODS: 1.3.1

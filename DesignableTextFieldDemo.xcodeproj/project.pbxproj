@@ -12,11 +12,7 @@
 		09B00EE61F4C296500255DA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B00EE41F4C296500255DA2 /* Main.storyboard */; };
 		09B00EE81F4C296500255DA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09B00EE71F4C296500255DA2 /* Assets.xcassets */; };
 		09B00EEB1F4C296500255DA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09B00EE91F4C296500255DA2 /* LaunchScreen.storyboard */; };
-		09DF29F21F4C2A15008D0B76 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF29EB1F4C2A15008D0B76 /* DesignableTextField.swift */; };
-		09DF29F31F4C2A15008D0B76 /* DesignableTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DF29EC1F4C2A15008D0B76 /* DesignableTextField.xib */; };
-		09DF29F41F4C2A15008D0B76 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF29EF1F4C2A15008D0B76 /* StringExtension.swift */; };
-		09DF29F51F4C2A15008D0B76 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF29F01F4C2A15008D0B76 /* UITextFieldExtension.swift */; };
-		09DF29F61F4C2A15008D0B76 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09DF29F11F4C2A15008D0B76 /* UIViewExtension.swift */; };
+		1778E38B2E5433B8508F11CF /* Pods_DesignableTextFieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FD26B15CC7155C4BB51E7DC /* Pods_DesignableTextFieldDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,11 +23,9 @@
 		09B00EE71F4C296500255DA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09B00EEA1F4C296500255DA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09B00EEC1F4C296500255DA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		09DF29EB1F4C2A15008D0B76 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
-		09DF29EC1F4C2A15008D0B76 /* DesignableTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignableTextField.xib; sourceTree = "<group>"; };
-		09DF29EF1F4C2A15008D0B76 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		09DF29F01F4C2A15008D0B76 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
-		09DF29F11F4C2A15008D0B76 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		1907CC81D56A39E54F074573 /* Pods-DesignableTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignableTextFieldDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignableTextFieldDemo/Pods-DesignableTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3C28DAD38B9ECF9495C1FEB3 /* Pods-DesignableTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignableTextFieldDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignableTextFieldDemo/Pods-DesignableTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6FD26B15CC7155C4BB51E7DC /* Pods_DesignableTextFieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesignableTextFieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1778E38B2E5433B8508F11CF /* Pods_DesignableTextFieldDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +45,8 @@
 			children = (
 				09B00EDF1F4C296500255DA2 /* DesignableTextFieldDemo */,
 				09B00EDE1F4C296500255DA2 /* Products */,
+				D74C11856EAAFF204EB89490 /* Pods */,
+				0BACBEC595C16CFEA698CDD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				09B00EE01F4C296500255DA2 /* AppDelegate.swift */,
-				09DF29EA1F4C2A15008D0B76 /* DesignableTextField */,
-				09DF29ED1F4C2A15008D0B76 /* Helper */,
 				09B00EE21F4C296500255DA2 /* ViewController.swift */,
 				09B00EE41F4C296500255DA2 /* Main.storyboard */,
 				09B00EE71F4C296500255DA2 /* Assets.xcassets */,
@@ -76,31 +71,21 @@
 			path = DesignableTextFieldDemo;
 			sourceTree = "<group>";
 		};
-		09DF29EA1F4C2A15008D0B76 /* DesignableTextField */ = {
+		0BACBEC595C16CFEA698CDD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09DF29EB1F4C2A15008D0B76 /* DesignableTextField.swift */,
-				09DF29EC1F4C2A15008D0B76 /* DesignableTextField.xib */,
+				6FD26B15CC7155C4BB51E7DC /* Pods_DesignableTextFieldDemo.framework */,
 			);
-			path = DesignableTextField;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		09DF29ED1F4C2A15008D0B76 /* Helper */ = {
+		D74C11856EAAFF204EB89490 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				09DF29EE1F4C2A15008D0B76 /* Extensions */,
+				1907CC81D56A39E54F074573 /* Pods-DesignableTextFieldDemo.debug.xcconfig */,
+				3C28DAD38B9ECF9495C1FEB3 /* Pods-DesignableTextFieldDemo.release.xcconfig */,
 			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		09DF29EE1F4C2A15008D0B76 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				09DF29EF1F4C2A15008D0B76 /* StringExtension.swift */,
-				09DF29F01F4C2A15008D0B76 /* UITextFieldExtension.swift */,
-				09DF29F11F4C2A15008D0B76 /* UIViewExtension.swift */,
-			);
-			path = Extensions;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09B00EEF1F4C296500255DA2 /* Build configuration list for PBXNativeTarget "DesignableTextFieldDemo" */;
 			buildPhases = (
+				E11C1F9EA2C6FC37E8AC9D4C /* [CP] Check Pods Manifest.lock */,
 				09B00ED91F4C296500255DA2 /* Sources */,
 				09B00EDA1F4C296500255DA2 /* Frameworks */,
 				09B00EDB1F4C296500255DA2 /* Resources */,
+				BEC10175092E7C6317C7C6C6 /* [CP] Embed Pods Frameworks */,
+				E161F97053E520B9B1D9569C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,22 +154,71 @@
 				09B00EEB1F4C296500255DA2 /* LaunchScreen.storyboard in Resources */,
 				09B00EE81F4C296500255DA2 /* Assets.xcassets in Resources */,
 				09B00EE61F4C296500255DA2 /* Main.storyboard in Resources */,
-				09DF29F31F4C2A15008D0B76 /* DesignableTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BEC10175092E7C6317C7C6C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DesignableTextFieldDemo/Pods-DesignableTextFieldDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DesignableTextField/DesignableTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DesignableTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesignableTextFieldDemo/Pods-DesignableTextFieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E11C1F9EA2C6FC37E8AC9D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesignableTextFieldDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E161F97053E520B9B1D9569C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DesignableTextFieldDemo/Pods-DesignableTextFieldDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		09B00ED91F4C296500255DA2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DF29F61F4C2A15008D0B76 /* UIViewExtension.swift in Sources */,
-				09DF29F51F4C2A15008D0B76 /* UITextFieldExtension.swift in Sources */,
-				09DF29F41F4C2A15008D0B76 /* StringExtension.swift in Sources */,
 				09B00EE31F4C296500255DA2 /* ViewController.swift in Sources */,
-				09DF29F21F4C2A15008D0B76 /* DesignableTextField.swift in Sources */,
 				09B00EE11F4C296500255DA2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +342,7 @@
 		};
 		09B00EF01F4C296500255DA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1907CC81D56A39E54F074573 /* Pods-DesignableTextFieldDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8M6V9HM9E;
@@ -318,6 +356,7 @@
 		};
 		09B00EF11F4C296500255DA2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C28DAD38B9ECF9495C1FEB3 /* Pods-DesignableTextFieldDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Q8M6V9HM9E;
